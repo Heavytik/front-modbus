@@ -40,6 +40,9 @@ function App() {
       <main>
         <div className="container">
           <div>
+            TUF-2000M ultrasonic energy meter produces output. You can upload that output (live text file) to this service and get back some example values.
+          </div>
+          <div>
             <input type="file" id="input" multiple />
             <button onClick={processFile}>Send and process file</button>
           </div>
